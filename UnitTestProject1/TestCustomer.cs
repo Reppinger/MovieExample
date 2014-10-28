@@ -19,6 +19,7 @@ namespace UnitTestProject1
             Customer customer = new Customer("Bob");
             
             Movie movie = new Movie("Maleficent", Movie.NEW_RELEASE);
+            NewReleaseMovie malificent = new NewReleaseMovie();
             Rental rental = new Rental(movie, 2);
 
             customer.AddRental(rental);
